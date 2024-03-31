@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "atoms/*": ["./components/atoms/*"],
+      "molecules/*": ["./components/molecules/*"],
+      "organisms/*": ["./components/organisms/*"],
+      "templates/*": ["./components/templates/*"],
+      "hooks/*": ["./hooks/*"],
+      "utils/*": ["./utils/*"],
+      "pages/*": ["./pages/*"],
+      "app/*": ["./app/*"],
+      "styles/*": ["./styles/*"]
     }
   }
 }
