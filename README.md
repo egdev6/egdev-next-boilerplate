@@ -1,3 +1,20 @@
+# Egdev Boilerplate 1.0
+
+## React + TypeScript + Vite
+
+Boilerplate para proyectos con React / Typescript y varias librerías ya configuradas:
+
+<ul>
+<li>React</li>
+<li>Next.js</li>
+<li>Tailwind CSS</li>
+<li>next-i18next</li>
+<li>Eslint</li>
+<li>Prettier</li>
+<li>Lint-staged</li>
+<li>Husky</li>
+</ul>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
