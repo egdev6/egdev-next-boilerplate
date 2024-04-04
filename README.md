@@ -1,8 +1,8 @@
-# Egdev Boilerplate 1.0
+# Egdev Next Boilerplate 1.0
 
-## React + TypeScript + Vite
+## React + Next.js + i18n
 
-Boilerplate para proyectos con React / Typescript y varias librerías ya configuradas:
+Boilerplate para proyectos con Next.js y varias librerías ya configuradas:
 
 <ul>
 <li>React</li>
