@@ -3,31 +3,69 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-foreground: #ffffff;
+  --color-background: #111111;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --color-foreground: #111111;
+    --color-background: #ffffff;
   }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  position: relative;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--color-foreground);
+  background: var(--color-background);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1 {
+  font-size: 4em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.8em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.2;
+  font-weight: 400;
 }

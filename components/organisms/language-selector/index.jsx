@@ -32,7 +32,11 @@ export default function LanguageChanger() {
   }
 
   return (
-    <select onChange={handleChange} value={currentLocale}>
+    <select
+      className='px-[20px] py-[10px] rounded-xl bg-transparent border-white text-white border-2'
+      onChange={handleChange}
+      value={currentLocale}
+    >
       <option value='en'>English</option>
       <option value='es'>Spanish</option>
     </select>
